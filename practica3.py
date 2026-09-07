@@ -50,10 +50,10 @@ def procesar_compra(producto, precio, cantidad):
 
 # Prueba 1: Compra CON descuento (Subtotal >= C$ 3,000)
 print("=== CASO 1: COMPRA CON DESCUENTO ===")
-procesar_compra(producto="Saco de Cemento", precio=450.00, cantidad=8)
+procesar_compra(producto="Bolsa de papas", precio=450.00, cantidad=8)
 # Subtotal: 450 * 8 = C$ 3,600 (Aplica 8% de descuento)
 
 # Prueba 2: Compra SIN descuento (Subtotal < C$ 3,000)
 print("=== CASO 2: COMPRA SIN DESCUENTO ===")
-procesar_compra(producto="Martillo de Uña", precio=250.00, cantidad=4)
+procesar_compra(producto="Mantequilla", precio=250.00, cantidad=4)
 # Subtotal: 250 * 4 = C$ 1,000 (No aplica descuento)
