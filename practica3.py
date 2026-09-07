@@ -1,5 +1,5 @@
 # --- FUNCIONES Y PROCEDIMIENTOS ---
-
+# PRACTICA DE MICHAEL WONG Y DAVID BERMÚDEZ
 
 def calcular_subtotal(precio, cantidad):
     # Variables locales para el cálculo
